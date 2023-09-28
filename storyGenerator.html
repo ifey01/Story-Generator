@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Story Generator</title>
+</head>
+<body>
+    <h1>Story Generator</h1>
+    <p>
+
+        Enter appropriate values in all of the text boxes. Then click the Done button to generate a
+        
+        story with your entered vales plugged into it.
+        
+        </p>
+        
+        <fieldset>
+        
+            <label for="noun">Noun:</label><input type="text" id = "noun" name="noun" size="20">
+
+            <label for="pastone">Past tense verb:</label><input type="text" id = "pastone" name="pastone" size="20">
+            
+            <label for="adjone">adjective:</label><input type="text" id = "adjone" name="adjtwo" size="20">
+            
+            <label for="pastone">Past tense verb:</label><input type="text" id = "pasttwo" name="pasttwo" size="20">
+            
+            <label for="adjtwo">adjective:</label><input type="text" id = "adjtwo" name="adjtwo" size="20">
+        
+        </fieldset>
+        
+        <div style = "text-align: left">
+
+        
+        <input type = "button" value = "Done" onclick = "generateStory();"/>
+    
+        
+        <input type = "button" value = "Reset" onclick = "clearStory();"/>
+        <section id="storySection">
+            
+        <hr>
+        
+        <div id = "outputDiv"> </div>
+
+        <input type="button" value="Return" onclick="Story()">
+
+        <script src="storyGenerator.js"></script>
+
+       
+        
+    
+</body>
+</html>

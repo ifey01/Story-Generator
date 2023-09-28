@@ -1,0 +1,22 @@
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+
+}
+
+fieldset {
+    display: inline-block;
+    border:none;
+    width:400px;
+    
+}
+
+.button {
+    font-family: Tahoma;
+    }
+    #story {
+    font-family: Comic Sans MS;
+    text-decoration: blue;
+    
+    }
